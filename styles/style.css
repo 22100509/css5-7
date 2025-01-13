@@ -1,0 +1,582 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0b0b0e;
+  font-family: inter;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #003004;
+  padding: 12px 0;
+}
+
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1040px;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.headerUl {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.AIcontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+  max-width: 1040px;
+  width: 100%;
+}
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 112px;
+  flex-wrap: wrap;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 564px;
+  width: 100%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 56px;
+}
+
+.headerP {
+  color: #7a7a7a;
+  font-size: 16px;
+  max-width: 544px;
+  width: 100%;
+}
+
+.headerButtons {
+  display: flex;
+  gap: 16px;
+}
+
+.orangeButton {
+  padding: 12px 24px;
+  border-radius: 24px;
+  background: #ff371a;
+  color: #fff;
+  font-size: 16px;
+}
+
+.blackButton {
+  padding: 12px 24px;
+  border-radius: 24px;
+  border: 1px solid #2f2c33;
+  color: #fff;
+  font-size: 16px;
+  width: 200px;
+  background: none;
+}
+
+.headerLogos {
+  display: flex;
+  gap: 32px;
+}
+
+.buildAIsection {
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.buildAIcontainer {
+  display: flex;
+  gap: 24px;
+}
+
+.decentralizedDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+h2 {
+  color: #fff;
+  font-size: 64px;
+  text-align: center;
+}
+
+.agentsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 16px;
+  border-radius: 12px;
+  background: #191919;
+}
+
+.agentsText {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.inferenceDiv {
+  padding: 16px;
+  display: flex;
+  gap: 24px;
+  background: #191919;
+  align-items: center;
+  border-radius: 12px;
+  background: #191919;
+  height: 100%;
+}
+
+.interfaceText {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 275px;
+  width: 100%;
+}
+
+.computeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 12px;
+}
+
+.computeText {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 360px;
+  width: 100%;
+}
+
+.smartDiv {
+  padding: 16px;
+  display: flex;
+  gap: 24px;
+  background: #191919;
+  align-items: center;
+  border-radius: 12px;
+  background: #191919;
+  flex-direction: column;
+}
+
+.wallLoveSection {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.wallText {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+h4 {
+  font-size: 36px;
+  color: #fff;
+}
+
+.wallHeadP {
+  font-size: 20px;
+  color: #7a7a7a;
+}
+
+.starBoxesDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.boxesLine {
+  display: flex;
+  gap: 24px;
+}
+
+.boxStar {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 32px;
+  border-radius: var(--radius-xl, 12px);
+  background: #191919;
+}
+
+.starsText {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.starsP {
+  color: #fff;
+  font-size: 16px;
+}
+
+.avatarDiv {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.avatarText {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatarName {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  color: #535862;
+  font-size: 16px;
+}
+
+a {
+  color: #535862;
+}
+
+.inputSection {
+  display: flex;
+  padding: 64px;
+  gap: 24px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 16px;
+  background: #191919;
+}
+
+.singUp {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.inputDiv {
+  display: flex;
+  justify-content: space-between;
+  max-width: 480px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  max-width: 338px;
+  width: 100%;
+  gap: 6px;
+}
+
+.email {
+  padding: 14px;
+  border-radius: var(--radius-md, 8px);
+  border: 1px solid #7a7a7a;
+  background: #0b0b0e;
+}
+
+.inputP {
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+.inputa {
+  color: #7a7a7a;
+}
+
+.subscribe {
+  padding: 12px 24px;
+  border-radius: 24px;
+  background: #ff371a;
+  color: #fff;
+}
+
+.customizesection {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.customizeHead {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  color: #7a7a7a;
+  font-size: 18px;
+}
+
+h5 {
+  max-width: 485px;
+  width: 100%;
+  font-size: 45px;
+  color: #fff;
+}
+
+.customizeHeadP {
+  max-width: 523px;
+  width: 100%;
+}
+
+.priceBoxes {
+  display: flex;
+  gap: 24px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0;
+  background: #191919;
+  max-width: 330px;
+  width: 100%;
+  gap: 44px;
+}
+
+.BoxMain {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
+
+.priceDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.boxHead {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.priceP {
+  font-size: 30px;
+}
+
+.boxHeadP {
+  color: #7a7a7a;
+  font-size: 16px;
+}
+
+.horizontalRow {
+  width: 304px;
+  height: 1px;
+  background: #888;
+}
+
+.SubContent {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  max-width: 260px;
+  width: 100%;
+}
+
+.subIcon {
+  display: flex;
+  gap: 12px;
+  color: #7a7a7a;
+  font-size: 16px;
+  align-items: center;
+}
+
+.buyNowOrange {
+  padding: 20px 108px;
+  border: 1.5px solid #ff371a;
+  background: #ff371a;
+  font-size: 20px;
+  color: #fff;
+}
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.popularP {
+  padding: 6px 12px;
+  background: #ff371a;
+  color: #fff;
+}
+
+.buyNowBlack {
+  padding: 20px 108px;
+  color: #fff;
+  font-size: 20px;
+  border: 1.5px solid #ff371a;
+  background: none;
+}
+
+.pointsDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.point {
+  display: flex;
+  gap: 13px;
+  align-items: flex-start;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  color: #7a7a7a;
+  font-size: 18px;
+  max-width: 434px;
+  width: 100%;
+  gap: 5px;
+}
+
+.contentP {
+  font-size: 20px;
+  color: #fff;
+}
+
+footer {
+  margin-top: 125px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+
+.footerDiv {
+  max-width: 1040px;
+  width: 100%;
+  display: flex;
+  gap: 64px;
+  flex-direction: column;
+}
+
+.DesignToolDiv {
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+
+.logoDiv {
+  display: flex;
+  max-width: 320px;
+  width: 100%;
+  flex-direction: column;
+  gap: 32px;
+  color: #fff;
+  font-size: 16px;
+  align-items: flex-start;
+}
+
+.AI {
+  width: 180px;
+}
+
+.ratingsDiv {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.starsDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: center;
+}
+
+.reviewsDiv {
+  display: flex;
+  font-size: 11px;
+  color: #fff;
+  flex-direction: column;
+}
+
+.reviews {
+  font-size: 9px;
+  color: #e9d7fe;
+  text-align: center;
+}
+
+.footerUl {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #535862;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.ulHead {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #fff;
+  font-size: 14px;
+  max-width: 176px;
+  width: 100%;
+}
+
+.ulDiv {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.lastDiv {
+    display: flex;
+    gap: 32px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    max-width: 312px;
+    width: 100%;
+} 
